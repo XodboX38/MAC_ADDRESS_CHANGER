@@ -65,11 +65,6 @@ def new_mac():
     # subprocess.call("ifconfig " + interface,shell=True)
 # -----------------------------FUNCTIONS ENDS HERE-------------------------------------------
 
-# -----------------------------TAKING INPUT USING input() function-----------------------------
-# mac = input("Enter the new MAC address: ")
-# interface = input("Enter the interface: ")
-# -----------------------------TAKING INPUT ENDS HERE------------------------------------------
-
 #-----------------------------CALLING A FUNCTION---------------------------------------------
 values = parsing()
 subprocess.call(["clear"])
